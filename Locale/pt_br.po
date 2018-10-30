@@ -1,0 +1,31 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Biblioteca Web %s"
+msgstr "Biblioteca Web %s"
+
+msgid "Aviso"
+msgstr "Aviso"
+
+msgid "Início"
+msgstr "Início"
+
+msgid "Executado em %s segundos"
+msgstr "Executado em %s segundos"
+
+msgid "Internacionalização ativa: %s"
+msgstr "Internacionalização ativa: %s"
+
+msgid "Arquivo %s não encontrado."
+msgstr "Arquivo %s não encontrado."
+
+msgid "Método %s não encontrado no Controller %s"
+msgstr "Método %s não encontrado no Controller %s"
+
+msgid "Controller %s não encontrado"
+msgstr "Controller %s não encontrado"
+
+msgid ""
+msgstr ""

@@ -1,0 +1,52 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Biblioteca Web %s"
+msgstr "Web %s Library"
+
+msgid "Aviso"
+msgstr "Warning"
+
+msgid "Início"
+msgstr "Main"
+
+msgid "Executado em %s segundos"
+msgstr "Execution time: %s seconds"
+
+msgid "Internacionalização ativa: %s"
+msgstr "Active internationalization: %s"
+
+msgid "Arquivo %s não encontrado."
+msgstr "File %s not found."
+
+msgid "Método %s não encontrado no Controller %s"
+msgstr "Method %s not found in %s Controller"
+
+msgid "Controller %s não encontrado"
+msgstr "Controller %s not found"
+
+msgid "Você não pode tentar salvar ou atualizar um modelo através de uma View."
+msgstr "You can not try to save or update a model through a View"
+
+msgid "Você não pode tentar deletar um modelo através de uma View."
+msgstr "You can not try to delete a model through a View"
+
+msgid "Método %s não encontrado no modelo %s."
+msgstr "Method %s not found in Model %s."
+
+msgid "O atributo %s não existe ou não foi declarado explicitamente no Modelo %s"
+msgstr "Attribute %s does not exist or was not explicitly declared in Model %s"
+
+msgid "Cadastrar"
+msgstr "Add"
+
+msgid "editar"
+msgstr "edit"
+
+msgid "deletar"
+msgstr "delete"
+
+msgid ""
+msgstr ""

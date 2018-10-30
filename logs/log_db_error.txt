@@ -1,0 +1,964 @@
+11/Aug/2018 00:13 - SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'ultimo_login' cannot be null
+INSERT INTO usuario (id,nome_usuario,email,senha,nome,avatar,ultimo_login) VALUES (:id,:nome_usuario,:email,:senha,:nome,:avatar,:ultimo_login)
+/var/www/html/green_pigeon/lib/core/Db.php
+Linha:351 - /var/www/html/green_pigeon/lib/core/Record.php
+Linha:25 - /var/www/html/green_pigeon/controller/UsuarioController.php
+Linha:102 - /var/www/html/green_pigeon/lib/core/Run.php
+Linha:27 - /var/www/html/green_pigeon/dispatcher.php
+================================================
+
+11/Aug/2018 00:25 - SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'a' for key 'nome_usuario_UNIQUE'
+INSERT INTO usuario (id,nome_usuario,email,senha,nome,avatar,ultimo_login) VALUES (:id,:nome_usuario,:email,:senha,:nome,:avatar,:ultimo_login)
+/var/www/html/green_pigeon/lib/core/Db.php
+Linha:351 - /var/www/html/green_pigeon/lib/core/Record.php
+Linha:28 - /var/www/html/green_pigeon/controller/UsuarioController.php
+Linha:102 - /var/www/html/green_pigeon/lib/core/Run.php
+Linha:27 - /var/www/html/green_pigeon/dispatcher.php
+================================================
+
+11/Aug/2018 12:07 - SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'a' for key 'nome_usuario_UNIQUE'
+INSERT INTO usuario (id,nome_usuario,email,senha,nome,avatar,ultimo_login) VALUES (:id,:nome_usuario,:email,:senha,:nome,:avatar,:ultimo_login)
+/var/www/html/green_pigeon/lib/core/Db.php
+Linha:351 - /var/www/html/green_pigeon/lib/core/Record.php
+Linha:35 - /var/www/html/green_pigeon/controller/UsuarioController.php
+Linha:102 - /var/www/html/green_pigeon/lib/core/Run.php
+Linha:27 - /var/www/html/green_pigeon/dispatcher.php
+================================================
+
+06/Sep/2018 21:01 - SQLSTATE[HY000] [1049] Unknown database 'green_pigeon'
+C:\Users\leona\dev\www\green_pigeon\lib\core\MysqlDB.php
+================================================
+
+08/Sep/2018 11:03 - SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'link' cannot be null
+INSERT INTO categoria (id,nome,link) VALUES (:id,:nome,:link)
+C:\Users\leona\dev\www\green_pigeon\lib\core\Db.php
+Linha:351 - C:\Users\leona\dev\www\green_pigeon\lib\core\Record.php
+Linha:64 - C:\Users\leona\dev\www\green_pigeon\controller\CategoriaController.php
+Linha:102 - C:\Users\leona\dev\www\green_pigeon\lib\core\Run.php
+Linha:27 - C:\Users\leona\dev\www\green_pigeon\dispatcher.php
+================================================
+
+08/Sep/2018 11:05 - SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'link' cannot be null
+INSERT INTO categoria (id,nome,link) VALUES (:id,:nome,:link)
+C:\Users\leona\dev\www\green_pigeon\lib\core\Db.php
+Linha:351 - C:\Users\leona\dev\www\green_pigeon\lib\core\Record.php
+Linha:64 - C:\Users\leona\dev\www\green_pigeon\controller\CategoriaController.php
+Linha:102 - C:\Users\leona\dev\www\green_pigeon\lib\core\Run.php
+Linha:27 - C:\Users\leona\dev\www\green_pigeon\dispatcher.php
+================================================
+
+08/Sep/2018 14:23 - SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'email' cannot be null
+INSERT INTO usuario (id,email,senha,nome,avatar,adm,pontuacao) VALUES (:id,:email,:senha,:nome,:avatar,:adm,:pontuacao)
+C:\Users\leona\dev\www\green_pigeon\lib\core\Db.php
+Linha:351 - C:\Users\leona\dev\www\green_pigeon\lib\core\Record.php
+Linha:68 - C:\Users\leona\dev\www\green_pigeon\controller\UsuarioController.php
+Linha:102 - C:\Users\leona\dev\www\green_pigeon\lib\core\Run.php
+Linha:27 - C:\Users\leona\dev\www\green_pigeon\dispatcher.php
+================================================
+
+08/Sep/2018 14:58 - SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'email' cannot be null
+INSERT INTO usuario (id,email,senha,nome,avatar,adm,pontuacao) VALUES (:id,:email,:senha,:nome,:avatar,:adm,:pontuacao)
+C:\Users\leona\dev\www\green_pigeon\lib\core\Db.php
+Linha:351 - C:\Users\leona\dev\www\green_pigeon\lib\core\Record.php
+Linha:68 - C:\Users\leona\dev\www\green_pigeon\controller\UsuarioController.php
+Linha:102 - C:\Users\leona\dev\www\green_pigeon\lib\core\Run.php
+Linha:27 - C:\Users\leona\dev\www\green_pigeon\dispatcher.php
+================================================
+
+08/Sep/2018 16:04 - SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'nome' cannot be null
+INSERT INTO categoria (id,nome,link) VALUES (:id,:nome,:link)
+C:\Users\leona\dev\www\green_pigeon\lib\core\Db.php
+Linha:351 - C:\Users\leona\dev\www\green_pigeon\lib\core\Record.php
+Linha:70 - C:\Users\leona\dev\www\green_pigeon\controller\CategoriaController.php
+Linha:102 - C:\Users\leona\dev\www\green_pigeon\lib\core\Run.php
+Linha:27 - C:\Users\leona\dev\www\green_pigeon\dispatcher.php
+================================================
+
+08/Sep/2018 16:07 - SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'nome' cannot be null
+INSERT INTO categoria (id,nome,link) VALUES (:id,:nome,:link)
+C:\Users\leona\dev\www\green_pigeon\lib\core\Db.php
+Linha:351 - C:\Users\leona\dev\www\green_pigeon\lib\core\Record.php
+Linha:70 - C:\Users\leona\dev\www\green_pigeon\controller\CategoriaController.php
+Linha:102 - C:\Users\leona\dev\www\green_pigeon\lib\core\Run.php
+Linha:27 - C:\Users\leona\dev\www\green_pigeon\dispatcher.php
+================================================
+
+08/Sep/2018 16:08 - SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'nome' cannot be null
+INSERT INTO categoria (id,nome,link) VALUES (:id,:nome,:link)
+C:\Users\leona\dev\www\green_pigeon\lib\core\Db.php
+Linha:351 - C:\Users\leona\dev\www\green_pigeon\lib\core\Record.php
+Linha:70 - C:\Users\leona\dev\www\green_pigeon\controller\CategoriaController.php
+Linha:102 - C:\Users\leona\dev\www\green_pigeon\lib\core\Run.php
+Linha:27 - C:\Users\leona\dev\www\green_pigeon\dispatcher.php
+================================================
+
+08/Sep/2018 16:09 - SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'nome' cannot be null
+INSERT INTO categoria (id,nome,link) VALUES (:id,:nome,:link)
+C:\Users\leona\dev\www\green_pigeon\lib\core\Db.php
+Linha:351 - C:\Users\leona\dev\www\green_pigeon\lib\core\Record.php
+Linha:70 - C:\Users\leona\dev\www\green_pigeon\controller\CategoriaController.php
+Linha:102 - C:\Users\leona\dev\www\green_pigeon\lib\core\Run.php
+Linha:27 - C:\Users\leona\dev\www\green_pigeon\dispatcher.php
+================================================
+
+08/Sep/2018 16:10 - SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'nome' cannot be null
+INSERT INTO categoria (id,nome,link) VALUES (:id,:nome,:link)
+C:\Users\leona\dev\www\green_pigeon\lib\core\Db.php
+Linha:351 - C:\Users\leona\dev\www\green_pigeon\lib\core\Record.php
+Linha:70 - C:\Users\leona\dev\www\green_pigeon\controller\CategoriaController.php
+Linha:102 - C:\Users\leona\dev\www\green_pigeon\lib\core\Run.php
+Linha:27 - C:\Users\leona\dev\www\green_pigeon\dispatcher.php
+================================================
+
+08/Sep/2018 16:11 - SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'texto' cannot be null
+INSERT INTO dica (id,titulo,texto,criador_id,data_criacao,categoria_id) VALUES (:id,:titulo,:texto,:criador_id,:data_criacao,:categoria_id)
+C:\Users\leona\dev\www\green_pigeon\lib\core\Db.php
+Linha:351 - C:\Users\leona\dev\www\green_pigeon\lib\core\Record.php
+Linha:65 - C:\Users\leona\dev\www\green_pigeon\controller\DicaController.php
+Linha:102 - C:\Users\leona\dev\www\green_pigeon\lib\core\Run.php
+Linha:27 - C:\Users\leona\dev\www\green_pigeon\dispatcher.php
+================================================
+
+08/Sep/2018 16:11 - SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'texto' cannot be null
+INSERT INTO dica (id,titulo,texto,criador_id,data_criacao,categoria_id) VALUES (:id,:titulo,:texto,:criador_id,:data_criacao,:categoria_id)
+C:\Users\leona\dev\www\green_pigeon\lib\core\Db.php
+Linha:351 - C:\Users\leona\dev\www\green_pigeon\lib\core\Record.php
+Linha:65 - C:\Users\leona\dev\www\green_pigeon\controller\DicaController.php
+Linha:102 - C:\Users\leona\dev\www\green_pigeon\lib\core\Run.php
+Linha:27 - C:\Users\leona\dev\www\green_pigeon\dispatcher.php
+================================================
+
+08/Sep/2018 19:13 - SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'texto' cannot be null
+INSERT INTO dica (id,titulo,texto,criador_id,data_criacao,categoria_id) VALUES (:id,:titulo,:texto,:criador_id,:data_criacao,:categoria_id)
+C:\Users\leona\dev\www\green_pigeon\lib\core\Db.php
+Linha:351 - C:\Users\leona\dev\www\green_pigeon\lib\core\Record.php
+Linha:65 - C:\Users\leona\dev\www\green_pigeon\controller\DicaController.php
+Linha:102 - C:\Users\leona\dev\www\green_pigeon\lib\core\Run.php
+Linha:27 - C:\Users\leona\dev\www\green_pigeon\dispatcher.php
+================================================
+
+08/Sep/2018 19:16 - SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'texto' cannot be null
+INSERT INTO dica (id,titulo,texto,criador_id,data_criacao,categoria_id) VALUES (:id,:titulo,:texto,:criador_id,:data_criacao,:categoria_id)
+C:\Users\leona\dev\www\green_pigeon\lib\core\Db.php
+Linha:351 - C:\Users\leona\dev\www\green_pigeon\lib\core\Record.php
+Linha:65 - C:\Users\leona\dev\www\green_pigeon\controller\DicaController.php
+Linha:102 - C:\Users\leona\dev\www\green_pigeon\lib\core\Run.php
+Linha:27 - C:\Users\leona\dev\www\green_pigeon\dispatcher.php
+================================================
+
+08/Sep/2018 19:18 - SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'texto' cannot be null
+INSERT INTO dica (id,titulo,texto,criador_id,data_criacao,categoria_id) VALUES (:id,:titulo,:texto,:criador_id,:data_criacao,:categoria_id)
+C:\Users\leona\dev\www\green_pigeon\lib\core\Db.php
+Linha:351 - C:\Users\leona\dev\www\green_pigeon\lib\core\Record.php
+Linha:65 - C:\Users\leona\dev\www\green_pigeon\controller\DicaController.php
+Linha:102 - C:\Users\leona\dev\www\green_pigeon\lib\core\Run.php
+Linha:27 - C:\Users\leona\dev\www\green_pigeon\dispatcher.php
+================================================
+
+08/Sep/2018 19:20 - SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'texto' cannot be null
+INSERT INTO dica (id,titulo,texto,criador_id,data_criacao,categoria_id) VALUES (:id,:titulo,:texto,:criador_id,:data_criacao,:categoria_id)
+C:\Users\leona\dev\www\green_pigeon\lib\core\Db.php
+Linha:351 - C:\Users\leona\dev\www\green_pigeon\lib\core\Record.php
+Linha:65 - C:\Users\leona\dev\www\green_pigeon\controller\DicaController.php
+Linha:102 - C:\Users\leona\dev\www\green_pigeon\lib\core\Run.php
+Linha:27 - C:\Users\leona\dev\www\green_pigeon\dispatcher.php
+================================================
+
+08/Sep/2018 20:59 - SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'texto' cannot be null
+INSERT INTO dica (id,titulo,texto,criador_id,data_criacao,categoria_id) VALUES (:id,:titulo,:texto,:criador_id,:data_criacao,:categoria_id)
+C:\Users\leona\dev\www\green_pigeon\lib\core\Db.php
+Linha:351 - C:\Users\leona\dev\www\green_pigeon\lib\core\Record.php
+Linha:65 - C:\Users\leona\dev\www\green_pigeon\controller\DicaController.php
+Linha:102 - C:\Users\leona\dev\www\green_pigeon\lib\core\Run.php
+Linha:27 - C:\Users\leona\dev\www\green_pigeon\dispatcher.php
+================================================
+
+08/Sep/2018 21:02 - SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'texto' cannot be null
+INSERT INTO dica (id,titulo,texto,criador_id,data_criacao,categoria_id) VALUES (:id,:titulo,:texto,:criador_id,:data_criacao,:categoria_id)
+C:\Users\leona\dev\www\green_pigeon\lib\core\Db.php
+Linha:351 - C:\Users\leona\dev\www\green_pigeon\lib\core\Record.php
+Linha:65 - C:\Users\leona\dev\www\green_pigeon\controller\DicaController.php
+Linha:102 - C:\Users\leona\dev\www\green_pigeon\lib\core\Run.php
+Linha:27 - C:\Users\leona\dev\www\green_pigeon\dispatcher.php
+================================================
+
+10/Sep/2018 08:20 - SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'texto' cannot be null
+INSERT INTO dica (id,titulo,texto,criador_id,data_criacao,categoria_id) VALUES (:id,:titulo,:texto,:criador_id,:data_criacao,:categoria_id)
+C:\Users\leona\dev\www\green_pigeon\lib\core\Db.php
+Linha:351 - C:\Users\leona\dev\www\green_pigeon\lib\core\Record.php
+Linha:65 - C:\Users\leona\dev\www\green_pigeon\controller\DicaController.php
+Linha:102 - C:\Users\leona\dev\www\green_pigeon\lib\core\Run.php
+Linha:27 - C:\Users\leona\dev\www\green_pigeon\dispatcher.php
+================================================
+
+10/Sep/2018 08:21 - SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'texto' cannot be null
+INSERT INTO dica (id,titulo,texto,criador_id,data_criacao,categoria_id) VALUES (:id,:titulo,:texto,:criador_id,:data_criacao,:categoria_id)
+C:\Users\leona\dev\www\green_pigeon\lib\core\Db.php
+Linha:351 - C:\Users\leona\dev\www\green_pigeon\lib\core\Record.php
+Linha:65 - C:\Users\leona\dev\www\green_pigeon\controller\DicaController.php
+Linha:102 - C:\Users\leona\dev\www\green_pigeon\lib\core\Run.php
+Linha:27 - C:\Users\leona\dev\www\green_pigeon\dispatcher.php
+================================================
+
+10/Sep/2018 08:21 - SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'texto' cannot be null
+INSERT INTO dica (id,titulo,texto,criador_id,data_criacao,categoria_id) VALUES (:id,:titulo,:texto,:criador_id,:data_criacao,:categoria_id)
+C:\Users\leona\dev\www\green_pigeon\lib\core\Db.php
+Linha:351 - C:\Users\leona\dev\www\green_pigeon\lib\core\Record.php
+Linha:65 - C:\Users\leona\dev\www\green_pigeon\controller\DicaController.php
+Linha:102 - C:\Users\leona\dev\www\green_pigeon\lib\core\Run.php
+Linha:27 - C:\Users\leona\dev\www\green_pigeon\dispatcher.php
+================================================
+
+10/Sep/2018 08:24 - SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'criador_id' cannot be null
+INSERT INTO dica (id,titulo,texto,criador_id,data_criacao,categoria_id) VALUES (:id,:titulo,:texto,:criador_id,:data_criacao,:categoria_id)
+C:\Users\leona\dev\www\green_pigeon\lib\core\Db.php
+Linha:351 - C:\Users\leona\dev\www\green_pigeon\lib\core\Record.php
+Linha:65 - C:\Users\leona\dev\www\green_pigeon\controller\DicaController.php
+Linha:102 - C:\Users\leona\dev\www\green_pigeon\lib\core\Run.php
+Linha:27 - C:\Users\leona\dev\www\green_pigeon\dispatcher.php
+================================================
+
+10/Sep/2018 08:25 - SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'texto' cannot be null
+INSERT INTO dica (id,titulo,texto,criador_id,data_criacao,categoria_id) VALUES (:id,:titulo,:texto,:criador_id,:data_criacao,:categoria_id)
+C:\Users\leona\dev\www\green_pigeon\lib\core\Db.php
+Linha:351 - C:\Users\leona\dev\www\green_pigeon\lib\core\Record.php
+Linha:65 - C:\Users\leona\dev\www\green_pigeon\controller\DicaController.php
+Linha:102 - C:\Users\leona\dev\www\green_pigeon\lib\core\Run.php
+Linha:27 - C:\Users\leona\dev\www\green_pigeon\dispatcher.php
+================================================
+
+11/Sep/2018 19:42 - SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`green_pigeon`.`dica`, CONSTRAINT `dica_ibfk_2` FOREIGN KEY (`criador_id`) REFERENCES `usuario` (`id`) ON DELETE NO ACTION ON UPDATE CASCADE)
+DELETE FROM usuario WHERE id = :id
+C:\Users\leona\dev\www\green_pigeon\lib\core\Db.php
+Linha:425 - C:\Users\leona\dev\www\green_pigeon\lib\core\Record.php
+Linha:140 - C:\Users\leona\dev\www\green_pigeon\controller\UsuarioController.php
+Linha:102 - C:\Users\leona\dev\www\green_pigeon\lib\core\Run.php
+Linha:27 - C:\Users\leona\dev\www\green_pigeon\dispatcher.php
+================================================
+
+14/Sep/2018 10:43 - SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'usuario_id' cannot be null
+INSERT INTO ponto_coleta (id,nome,latitude,longitude,descricao,exibir,aprovacoes,desaprovacoes,data_criacao,usuario_id,categoria_id) VALUES (:id,:nome,:latitude,:longitude,:descricao,:exibir,:aprovacoes,:desaprovacoes,:data_criacao,:usuario_id,:categoria_id)
+C:\Users\leona\dev\www\green_pigeon\lib\core\Db.php
+Linha:351 - C:\Users\leona\dev\www\green_pigeon\lib\core\Record.php
+Linha:72 - C:\Users\leona\dev\www\green_pigeon\controller\Ponto_coletaController.php
+Linha:102 - C:\Users\leona\dev\www\green_pigeon\lib\core\Run.php
+Linha:27 - C:\Users\leona\dev\www\green_pigeon\dispatcher.php
+================================================
+
+14/Sep/2018 10:46 - SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'usuario_id' cannot be null
+INSERT INTO ponto_coleta (id,nome,latitude,longitude,descricao,exibir,aprovacoes,desaprovacoes,data_criacao,usuario_id,categoria_id) VALUES (:id,:nome,:latitude,:longitude,:descricao,:exibir,:aprovacoes,:desaprovacoes,:data_criacao,:usuario_id,:categoria_id)
+C:\Users\leona\dev\www\green_pigeon\lib\core\Db.php
+Linha:351 - C:\Users\leona\dev\www\green_pigeon\lib\core\Record.php
+Linha:72 - C:\Users\leona\dev\www\green_pigeon\controller\Ponto_coletaController.php
+Linha:102 - C:\Users\leona\dev\www\green_pigeon\lib\core\Run.php
+Linha:27 - C:\Users\leona\dev\www\green_pigeon\dispatcher.php
+================================================
+
+14/Sep/2018 10:46 - SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'usuario_id' cannot be null
+INSERT INTO ponto_coleta (id,nome,latitude,longitude,descricao,exibir,aprovacoes,desaprovacoes,data_criacao,usuario_id,categoria_id) VALUES (:id,:nome,:latitude,:longitude,:descricao,:exibir,:aprovacoes,:desaprovacoes,:data_criacao,:usuario_id,:categoria_id)
+C:\Users\leona\dev\www\green_pigeon\lib\core\Db.php
+Linha:351 - C:\Users\leona\dev\www\green_pigeon\lib\core\Record.php
+Linha:72 - C:\Users\leona\dev\www\green_pigeon\controller\Ponto_coletaController.php
+Linha:102 - C:\Users\leona\dev\www\green_pigeon\lib\core\Run.php
+Linha:27 - C:\Users\leona\dev\www\green_pigeon\dispatcher.php
+================================================
+
+14/Sep/2018 20:51 - SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'texto' cannot be null
+INSERT INTO dica (id,titulo,texto,criador_id,data_criacao,categoria_id) VALUES (:id,:titulo,:texto,:criador_id,:data_criacao,:categoria_id)
+C:\Users\leona\dev\www\green_pigeon\lib\core\Db.php
+Linha:351 - C:\Users\leona\dev\www\green_pigeon\lib\core\Record.php
+Linha:65 - C:\Users\leona\dev\www\green_pigeon\controller\DicaController.php
+Linha:102 - C:\Users\leona\dev\www\green_pigeon\lib\core\Run.php
+Linha:27 - C:\Users\leona\dev\www\green_pigeon\dispatcher.php
+================================================
+
+14/Sep/2018 20:57 - SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'texto' cannot be null
+INSERT INTO dica (id,titulo,texto,criador_id,data_criacao,categoria_id) VALUES (:id,:titulo,:texto,:criador_id,:data_criacao,:categoria_id)
+C:\Users\leona\dev\www\green_pigeon\lib\core\Db.php
+Linha:351 - C:\Users\leona\dev\www\green_pigeon\lib\core\Record.php
+Linha:66 - C:\Users\leona\dev\www\green_pigeon\controller\DicaController.php
+Linha:102 - C:\Users\leona\dev\www\green_pigeon\lib\core\Run.php
+Linha:27 - C:\Users\leona\dev\www\green_pigeon\dispatcher.php
+================================================
+
+14/Sep/2018 21:02 - SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'texto' cannot be null
+INSERT INTO dica (id,titulo,texto,criador_id,data_criacao,categoria_id) VALUES (:id,:titulo,:texto,:criador_id,:data_criacao,:categoria_id)
+C:\Users\leona\dev\www\green_pigeon\lib\core\Db.php
+Linha:351 - C:\Users\leona\dev\www\green_pigeon\lib\core\Record.php
+Linha:66 - C:\Users\leona\dev\www\green_pigeon\controller\DicaController.php
+Linha:102 - C:\Users\leona\dev\www\green_pigeon\lib\core\Run.php
+Linha:27 - C:\Users\leona\dev\www\green_pigeon\dispatcher.php
+================================================
+
+14/Sep/2018 21:07 - SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'texto' cannot be null
+INSERT INTO dica (id,titulo,texto,criador_id,data_criacao,categoria_id) VALUES (:id,:titulo,:texto,:criador_id,:data_criacao,:categoria_id)
+C:\Users\leona\dev\www\green_pigeon\lib\core\Db.php
+Linha:351 - C:\Users\leona\dev\www\green_pigeon\lib\core\Record.php
+Linha:65 - C:\Users\leona\dev\www\green_pigeon\controller\DicaController.php
+Linha:102 - C:\Users\leona\dev\www\green_pigeon\lib\core\Run.php
+Linha:27 - C:\Users\leona\dev\www\green_pigeon\dispatcher.php
+================================================
+
+14/Sep/2018 21:09 - SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'texto' cannot be null
+INSERT INTO dica (id,titulo,texto,criador_id,data_criacao,categoria_id) VALUES (:id,:titulo,:texto,:criador_id,:data_criacao,:categoria_id)
+C:\Users\leona\dev\www\green_pigeon\lib\core\Db.php
+Linha:351 - C:\Users\leona\dev\www\green_pigeon\lib\core\Record.php
+Linha:65 - C:\Users\leona\dev\www\green_pigeon\controller\DicaController.php
+Linha:102 - C:\Users\leona\dev\www\green_pigeon\lib\core\Run.php
+Linha:27 - C:\Users\leona\dev\www\green_pigeon\dispatcher.php
+================================================
+
+14/Sep/2018 21:11 - SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'texto' cannot be null
+INSERT INTO dica (id,titulo,texto,criador_id,data_criacao,categoria_id) VALUES (:id,:titulo,:texto,:criador_id,:data_criacao,:categoria_id)
+C:\Users\leona\dev\www\green_pigeon\lib\core\Db.php
+Linha:351 - C:\Users\leona\dev\www\green_pigeon\lib\core\Record.php
+Linha:65 - C:\Users\leona\dev\www\green_pigeon\controller\DicaController.php
+Linha:102 - C:\Users\leona\dev\www\green_pigeon\lib\core\Run.php
+Linha:27 - C:\Users\leona\dev\www\green_pigeon\dispatcher.php
+================================================
+
+14/Sep/2018 21:12 - SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'texto' cannot be null
+INSERT INTO dica (id,titulo,texto,criador_id,data_criacao,categoria_id) VALUES (:id,:titulo,:texto,:criador_id,:data_criacao,:categoria_id)
+C:\Users\leona\dev\www\green_pigeon\lib\core\Db.php
+Linha:351 - C:\Users\leona\dev\www\green_pigeon\lib\core\Record.php
+Linha:65 - C:\Users\leona\dev\www\green_pigeon\controller\DicaController.php
+Linha:102 - C:\Users\leona\dev\www\green_pigeon\lib\core\Run.php
+Linha:27 - C:\Users\leona\dev\www\green_pigeon\dispatcher.php
+================================================
+
+14/Sep/2018 21:17 - SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'texto' cannot be null
+INSERT INTO dica (id,titulo,texto,criador_id,data_criacao,categoria_id) VALUES (:id,:titulo,:texto,:criador_id,:data_criacao,:categoria_id)
+C:\Users\leona\dev\www\green_pigeon\lib\core\Db.php
+Linha:351 - C:\Users\leona\dev\www\green_pigeon\lib\core\Record.php
+Linha:65 - C:\Users\leona\dev\www\green_pigeon\controller\DicaController.php
+Linha:102 - C:\Users\leona\dev\www\green_pigeon\lib\core\Run.php
+Linha:27 - C:\Users\leona\dev\www\green_pigeon\dispatcher.php
+================================================
+
+14/Sep/2018 21:27 - SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'texto' cannot be null
+INSERT INTO dica (id,titulo,texto,criador_id,data_criacao,categoria_id) VALUES (:id,:titulo,:texto,:criador_id,:data_criacao,:categoria_id)
+C:\Users\leona\dev\www\green_pigeon\lib\core\Db.php
+Linha:351 - C:\Users\leona\dev\www\green_pigeon\lib\core\Record.php
+Linha:65 - C:\Users\leona\dev\www\green_pigeon\controller\DicaController.php
+Linha:102 - C:\Users\leona\dev\www\green_pigeon\lib\core\Run.php
+Linha:27 - C:\Users\leona\dev\www\green_pigeon\dispatcher.php
+================================================
+
+14/Sep/2018 21:28 - SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'texto' cannot be null
+INSERT INTO dica (id,titulo,texto,criador_id,data_criacao,categoria_id) VALUES (:id,:titulo,:texto,:criador_id,:data_criacao,:categoria_id)
+C:\Users\leona\dev\www\green_pigeon\lib\core\Db.php
+Linha:351 - C:\Users\leona\dev\www\green_pigeon\lib\core\Record.php
+Linha:65 - C:\Users\leona\dev\www\green_pigeon\controller\DicaController.php
+Linha:102 - C:\Users\leona\dev\www\green_pigeon\lib\core\Run.php
+Linha:27 - C:\Users\leona\dev\www\green_pigeon\dispatcher.php
+================================================
+
+14/Sep/2018 22:30 - SQLSTATE[42S22]: Column not found: 1054 Unknown column 'dica.usuario_id' in 'where clause'
+SELECT SQL_CALC_FOUND_ROWS dica.* FROM dica WHERE ( dica.usuario_id = :usuario_id5b9c60c3507b0 ) LIMIT 0,20
+C:\Users\leona\dev\www\green_pigeon\lib\core\Db.php
+Linha:79 - C:\Users\leona\dev\www\green_pigeon\lib\core\Db.php
+Linha:501 - C:\Users\leona\dev\www\green_pigeon\lib\core\Record.php
+Linha:30 - C:\Users\leona\dev\www\green_pigeon\controller\DicaController.php
+Linha:104 - C:\Users\leona\dev\www\green_pigeon\lib\core\Run.php
+Linha:27 - C:\Users\leona\dev\www\green_pigeon\dispatcher.php
+================================================
+
+15/Sep/2018 11:34 - SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`green_pigeon`.`dica`, CONSTRAINT `dica_ibfk_2` FOREIGN KEY (`criador_id`) REFERENCES `usuario` (`id`) ON DELETE NO ACTION ON UPDATE CASCADE)
+DELETE FROM usuario WHERE id = :id
+C:\Users\leona\dev\www\green_pigeon\lib\core\Db.php
+Linha:425 - C:\Users\leona\dev\www\green_pigeon\lib\core\Record.php
+Linha:147 - C:\Users\leona\dev\www\green_pigeon\controller\UsuarioController.php
+Linha:102 - C:\Users\leona\dev\www\green_pigeon\lib\core\Run.php
+Linha:27 - C:\Users\leona\dev\www\green_pigeon\dispatcher.php
+================================================
+
+15/Sep/2018 11:35 - SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`green_pigeon`.`dica`, CONSTRAINT `dica_ibfk_2` FOREIGN KEY (`criador_id`) REFERENCES `usuario` (`id`) ON DELETE NO ACTION ON UPDATE CASCADE)
+DELETE FROM usuario WHERE id = :id
+C:\Users\leona\dev\www\green_pigeon\lib\core\Db.php
+Linha:425 - C:\Users\leona\dev\www\green_pigeon\lib\core\Record.php
+Linha:147 - C:\Users\leona\dev\www\green_pigeon\controller\UsuarioController.php
+Linha:102 - C:\Users\leona\dev\www\green_pigeon\lib\core\Run.php
+Linha:27 - C:\Users\leona\dev\www\green_pigeon\dispatcher.php
+================================================
+
+15/Sep/2018 11:36 - SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`green_pigeon`.`dica`, CONSTRAINT `dica_ibfk_2` FOREIGN KEY (`criador_id`) REFERENCES `usuario` (`id`) ON DELETE NO ACTION ON UPDATE CASCADE)
+DELETE FROM usuario WHERE id = :id
+C:\Users\leona\dev\www\green_pigeon\lib\core\Db.php
+Linha:425 - C:\Users\leona\dev\www\green_pigeon\lib\core\Record.php
+Linha:147 - C:\Users\leona\dev\www\green_pigeon\controller\UsuarioController.php
+Linha:102 - C:\Users\leona\dev\www\green_pigeon\lib\core\Run.php
+Linha:27 - C:\Users\leona\dev\www\green_pigeon\dispatcher.php
+================================================
+
+15/Sep/2018 11:36 - SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`green_pigeon`.`dica`, CONSTRAINT `dica_ibfk_2` FOREIGN KEY (`criador_id`) REFERENCES `usuario` (`id`) ON DELETE NO ACTION ON UPDATE CASCADE)
+DELETE FROM usuario WHERE id = :id
+C:\Users\leona\dev\www\green_pigeon\lib\core\Db.php
+Linha:425 - C:\Users\leona\dev\www\green_pigeon\lib\core\Record.php
+Linha:147 - C:\Users\leona\dev\www\green_pigeon\controller\UsuarioController.php
+Linha:102 - C:\Users\leona\dev\www\green_pigeon\lib\core\Run.php
+Linha:27 - C:\Users\leona\dev\www\green_pigeon\dispatcher.php
+================================================
+
+18/Sep/2018 10:33 - SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'texto' cannot be null
+INSERT INTO evento (id,titulo,texto,criador_id,capa,data_criacao,latitude,longitude) VALUES (:id,:titulo,:texto,:criador_id,:capa,:data_criacao,:latitude,:longitude)
+C:\Users\leona\dev\www\green_pigeon\lib\core\Db.php
+Linha:351 - C:\Users\leona\dev\www\green_pigeon\lib\core\Record.php
+Linha:66 - C:\Users\leona\dev\www\green_pigeon\controller\EventoController.php
+Linha:102 - C:\Users\leona\dev\www\green_pigeon\lib\core\Run.php
+Linha:27 - C:\Users\leona\dev\www\green_pigeon\dispatcher.php
+================================================
+
+18/Sep/2018 10:38 - SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'texto' cannot be null
+INSERT INTO evento (id,titulo,texto,criador_id,capa,data_criacao,latitude,longitude) VALUES (:id,:titulo,:texto,:criador_id,:capa,:data_criacao,:latitude,:longitude)
+C:\Users\leona\dev\www\green_pigeon\lib\core\Db.php
+Linha:351 - C:\Users\leona\dev\www\green_pigeon\lib\core\Record.php
+Linha:66 - C:\Users\leona\dev\www\green_pigeon\controller\EventoController.php
+Linha:102 - C:\Users\leona\dev\www\green_pigeon\lib\core\Run.php
+Linha:27 - C:\Users\leona\dev\www\green_pigeon\dispatcher.php
+================================================
+
+19/Sep/2018 23:37 - SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'criador_id' cannot be null
+INSERT INTO dica (id,titulo,texto,criador_id,data_criacao,categoria_id) VALUES (:id,:titulo,:texto,:criador_id,:data_criacao,:categoria_id)
+C:\Users\leona\dev\www\green_pigeon\lib\core\Db.php
+Linha:305 - C:\Users\leona\dev\www\green_pigeon\lib\core\Record.php
+Linha:68 - C:\Users\leona\dev\www\green_pigeon\controller\DicaController.php
+Linha:103 - C:\Users\leona\dev\www\green_pigeon\lib\core\Run.php
+Linha:27 - C:\Users\leona\dev\www\green_pigeon\dispatcher.php
+================================================
+
+20/Sep/2018 08:23 - SQLSTATE[42S22]: Column not found: 1054 Unknown column 'dica.1' in 'where clause'
+SELECT SQL_CALC_FOUND_ROWS dica.* FROM dica WHERE ( dica.1 = :15ba38348103c6 ) LIMIT 0,20
+C:\Users\leona\dev\www\green_pigeon\lib\core\Db.php
+Linha:79 - C:\Users\leona\dev\www\green_pigeon\lib\core\Db.php
+Linha:455 - C:\Users\leona\dev\www\green_pigeon\lib\core\Record.php
+Linha:159 - C:\Users\leona\dev\www\green_pigeon\controller\DicaController.php
+Linha:105 - C:\Users\leona\dev\www\green_pigeon\lib\core\Run.php
+Linha:27 - C:\Users\leona\dev\www\green_pigeon\dispatcher.php
+================================================
+
+20/Sep/2018 08:27 - SQLSTATE[42S22]: Column not found: 1054 Unknown column 'dica.1' in 'where clause'
+SELECT SQL_CALC_FOUND_ROWS dica.* FROM dica WHERE ( dica.1 = :15ba3841685653 ) LIMIT 0,20
+C:\Users\leona\dev\www\green_pigeon\lib\core\Db.php
+Linha:79 - C:\Users\leona\dev\www\green_pigeon\lib\core\Db.php
+Linha:455 - C:\Users\leona\dev\www\green_pigeon\lib\core\Record.php
+Linha:157 - C:\Users\leona\dev\www\green_pigeon\controller\DicaController.php
+Linha:105 - C:\Users\leona\dev\www\green_pigeon\lib\core\Run.php
+Linha:27 - C:\Users\leona\dev\www\green_pigeon\dispatcher.php
+================================================
+
+20/Sep/2018 08:27 - SQLSTATE[42S22]: Column not found: 1054 Unknown column 'dica.1' in 'where clause'
+SELECT SQL_CALC_FOUND_ROWS dica.* FROM dica WHERE ( dica.1 = :15ba384189e3ac ) LIMIT 0,20
+C:\Users\leona\dev\www\green_pigeon\lib\core\Db.php
+Linha:79 - C:\Users\leona\dev\www\green_pigeon\lib\core\Db.php
+Linha:455 - C:\Users\leona\dev\www\green_pigeon\lib\core\Record.php
+Linha:157 - C:\Users\leona\dev\www\green_pigeon\controller\DicaController.php
+Linha:105 - C:\Users\leona\dev\www\green_pigeon\lib\core\Run.php
+Linha:27 - C:\Users\leona\dev\www\green_pigeon\dispatcher.php
+================================================
+
+20/Sep/2018 08:45 - SQLSTATE[42S22]: Column not found: 1054 Unknown column 'dica.1' in 'where clause'
+SELECT SQL_CALC_FOUND_ROWS dica.* FROM dica WHERE ( dica.1 = :15ba38869dca6a ) LIMIT 0,20
+C:\Users\leona\dev\www\green_pigeon\lib\core\Db.php
+Linha:79 - C:\Users\leona\dev\www\green_pigeon\lib\core\Db.php
+Linha:455 - C:\Users\leona\dev\www\green_pigeon\lib\core\Record.php
+Linha:175 - C:\Users\leona\dev\www\green_pigeon\controller\DicaController.php
+Linha:105 - C:\Users\leona\dev\www\green_pigeon\lib\core\Run.php
+Linha:27 - C:\Users\leona\dev\www\green_pigeon\dispatcher.php
+================================================
+
+20/Sep/2018 08:46 - SQLSTATE[42S22]: Column not found: 1054 Unknown column 'dica.1' in 'where clause'
+SELECT SQL_CALC_FOUND_ROWS dica.* FROM dica WHERE ( dica.1 = :15ba388adeb6a6 ) LIMIT 0,20
+C:\Users\leona\dev\www\green_pigeon\lib\core\Db.php
+Linha:79 - C:\Users\leona\dev\www\green_pigeon\lib\core\Db.php
+Linha:455 - C:\Users\leona\dev\www\green_pigeon\lib\core\Record.php
+Linha:175 - C:\Users\leona\dev\www\green_pigeon\controller\DicaController.php
+Linha:105 - C:\Users\leona\dev\www\green_pigeon\lib\core\Run.php
+Linha:27 - C:\Users\leona\dev\www\green_pigeon\dispatcher.php
+================================================
+
+20/Sep/2018 08:46 - SQLSTATE[42S22]: Column not found: 1054 Unknown column 'dica.2' in 'where clause'
+SELECT SQL_CALC_FOUND_ROWS dica.* FROM dica WHERE ( dica.2 = :25ba388b2a2355 ) LIMIT 0,20
+C:\Users\leona\dev\www\green_pigeon\lib\core\Db.php
+Linha:79 - C:\Users\leona\dev\www\green_pigeon\lib\core\Db.php
+Linha:455 - C:\Users\leona\dev\www\green_pigeon\lib\core\Record.php
+Linha:175 - C:\Users\leona\dev\www\green_pigeon\controller\DicaController.php
+Linha:105 - C:\Users\leona\dev\www\green_pigeon\lib\core\Run.php
+Linha:27 - C:\Users\leona\dev\www\green_pigeon\dispatcher.php
+================================================
+
+20/Sep/2018 08:47 - SQLSTATE[42S22]: Column not found: 1054 Unknown column 'dica.1' in 'where clause'
+SELECT SQL_CALC_FOUND_ROWS dica.* FROM dica WHERE ( dica.1 = :15ba388b4225b4 ) LIMIT 0,20
+C:\Users\leona\dev\www\green_pigeon\lib\core\Db.php
+Linha:79 - C:\Users\leona\dev\www\green_pigeon\lib\core\Db.php
+Linha:455 - C:\Users\leona\dev\www\green_pigeon\lib\core\Record.php
+Linha:175 - C:\Users\leona\dev\www\green_pigeon\controller\DicaController.php
+Linha:105 - C:\Users\leona\dev\www\green_pigeon\lib\core\Run.php
+Linha:27 - C:\Users\leona\dev\www\green_pigeon\dispatcher.php
+================================================
+
+20/Sep/2018 08:47 - SQLSTATE[42S22]: Column not found: 1054 Unknown column 'dica.2' in 'where clause'
+SELECT SQL_CALC_FOUND_ROWS dica.* FROM dica WHERE ( dica.2 = :25ba388b522c53 ) LIMIT 0,20
+C:\Users\leona\dev\www\green_pigeon\lib\core\Db.php
+Linha:79 - C:\Users\leona\dev\www\green_pigeon\lib\core\Db.php
+Linha:455 - C:\Users\leona\dev\www\green_pigeon\lib\core\Record.php
+Linha:175 - C:\Users\leona\dev\www\green_pigeon\controller\DicaController.php
+Linha:105 - C:\Users\leona\dev\www\green_pigeon\lib\core\Run.php
+Linha:27 - C:\Users\leona\dev\www\green_pigeon\dispatcher.php
+================================================
+
+20/Sep/2018 08:47 - SQLSTATE[42S22]: Column not found: 1054 Unknown column 'dica.1' in 'where clause'
+SELECT SQL_CALC_FOUND_ROWS dica.* FROM dica WHERE ( dica.1 = :15ba388b5d096f ) LIMIT 0,20
+C:\Users\leona\dev\www\green_pigeon\lib\core\Db.php
+Linha:79 - C:\Users\leona\dev\www\green_pigeon\lib\core\Db.php
+Linha:455 - C:\Users\leona\dev\www\green_pigeon\lib\core\Record.php
+Linha:175 - C:\Users\leona\dev\www\green_pigeon\controller\DicaController.php
+Linha:105 - C:\Users\leona\dev\www\green_pigeon\lib\core\Run.php
+Linha:27 - C:\Users\leona\dev\www\green_pigeon\dispatcher.php
+================================================
+
+20/Sep/2018 08:47 - SQLSTATE[42S22]: Column not found: 1054 Unknown column 'dica.2' in 'where clause'
+SELECT SQL_CALC_FOUND_ROWS dica.* FROM dica WHERE ( dica.2 = :25ba388b6b8cb2 ) LIMIT 0,20
+C:\Users\leona\dev\www\green_pigeon\lib\core\Db.php
+Linha:79 - C:\Users\leona\dev\www\green_pigeon\lib\core\Db.php
+Linha:455 - C:\Users\leona\dev\www\green_pigeon\lib\core\Record.php
+Linha:175 - C:\Users\leona\dev\www\green_pigeon\controller\DicaController.php
+Linha:105 - C:\Users\leona\dev\www\green_pigeon\lib\core\Run.php
+Linha:27 - C:\Users\leona\dev\www\green_pigeon\dispatcher.php
+================================================
+
+20/Sep/2018 08:47 - SQLSTATE[42S22]: Column not found: 1054 Unknown column 'dica.1' in 'where clause'
+SELECT SQL_CALC_FOUND_ROWS dica.* FROM dica WHERE ( dica.1 = :15ba388b76f3b9 ) LIMIT 0,20
+C:\Users\leona\dev\www\green_pigeon\lib\core\Db.php
+Linha:79 - C:\Users\leona\dev\www\green_pigeon\lib\core\Db.php
+Linha:455 - C:\Users\leona\dev\www\green_pigeon\lib\core\Record.php
+Linha:175 - C:\Users\leona\dev\www\green_pigeon\controller\DicaController.php
+Linha:105 - C:\Users\leona\dev\www\green_pigeon\lib\core\Run.php
+Linha:27 - C:\Users\leona\dev\www\green_pigeon\dispatcher.php
+================================================
+
+20/Sep/2018 08:48 - SQLSTATE[42S22]: Column not found: 1054 Unknown column 'dica.1' in 'where clause'
+SELECT SQL_CALC_FOUND_ROWS dica.* FROM dica WHERE ( dica.1 = :15ba388f047f88 ) LIMIT 0,20
+C:\Users\leona\dev\www\green_pigeon\lib\core\Db.php
+Linha:79 - C:\Users\leona\dev\www\green_pigeon\lib\core\Db.php
+Linha:455 - C:\Users\leona\dev\www\green_pigeon\lib\core\Record.php
+Linha:175 - C:\Users\leona\dev\www\green_pigeon\controller\DicaController.php
+Linha:105 - C:\Users\leona\dev\www\green_pigeon\lib\core\Run.php
+Linha:27 - C:\Users\leona\dev\www\green_pigeon\dispatcher.php
+================================================
+
+20/Sep/2018 08:48 - SQLSTATE[42S22]: Column not found: 1054 Unknown column 'dica.1' in 'where clause'
+SELECT SQL_CALC_FOUND_ROWS dica.* FROM dica WHERE ( dica.1 = :15ba389027fe60 ) LIMIT 0,20
+C:\Users\leona\dev\www\green_pigeon\lib\core\Db.php
+Linha:79 - C:\Users\leona\dev\www\green_pigeon\lib\core\Db.php
+Linha:455 - C:\Users\leona\dev\www\green_pigeon\lib\core\Record.php
+Linha:175 - C:\Users\leona\dev\www\green_pigeon\controller\DicaController.php
+Linha:105 - C:\Users\leona\dev\www\green_pigeon\lib\core\Run.php
+Linha:27 - C:\Users\leona\dev\www\green_pigeon\dispatcher.php
+================================================
+
+20/Sep/2018 08:48 - SQLSTATE[42S22]: Column not found: 1054 Unknown column 'dica.1' in 'where clause'
+SELECT SQL_CALC_FOUND_ROWS dica.* FROM dica WHERE ( dica.1 = :15ba389034a31b ) LIMIT 0,20
+C:\Users\leona\dev\www\green_pigeon\lib\core\Db.php
+Linha:79 - C:\Users\leona\dev\www\green_pigeon\lib\core\Db.php
+Linha:455 - C:\Users\leona\dev\www\green_pigeon\lib\core\Record.php
+Linha:175 - C:\Users\leona\dev\www\green_pigeon\controller\DicaController.php
+Linha:105 - C:\Users\leona\dev\www\green_pigeon\lib\core\Run.php
+Linha:27 - C:\Users\leona\dev\www\green_pigeon\dispatcher.php
+================================================
+
+20/Sep/2018 08:49 - SQLSTATE[42S22]: Column not found: 1054 Unknown column 'dica.1' in 'where clause'
+SELECT SQL_CALC_FOUND_ROWS dica.* FROM dica WHERE ( dica.1 = :15ba389350b927 ) LIMIT 0,20
+C:\Users\leona\dev\www\green_pigeon\lib\core\Db.php
+Linha:79 - C:\Users\leona\dev\www\green_pigeon\lib\core\Db.php
+Linha:455 - C:\Users\leona\dev\www\green_pigeon\lib\core\Record.php
+Linha:175 - C:\Users\leona\dev\www\green_pigeon\controller\DicaController.php
+Linha:105 - C:\Users\leona\dev\www\green_pigeon\lib\core\Run.php
+Linha:27 - C:\Users\leona\dev\www\green_pigeon\dispatcher.php
+================================================
+
+20/Sep/2018 08:49 - SQLSTATE[42S22]: Column not found: 1054 Unknown column 'dica.1' in 'where clause'
+SELECT SQL_CALC_FOUND_ROWS dica.* FROM dica WHERE ( dica.1 = :15ba3894164cb7 ) LIMIT 0,20
+C:\Users\leona\dev\www\green_pigeon\lib\core\Db.php
+Linha:79 - C:\Users\leona\dev\www\green_pigeon\lib\core\Db.php
+Linha:455 - C:\Users\leona\dev\www\green_pigeon\lib\core\Record.php
+Linha:175 - C:\Users\leona\dev\www\green_pigeon\controller\DicaController.php
+Linha:105 - C:\Users\leona\dev\www\green_pigeon\lib\core\Run.php
+Linha:27 - C:\Users\leona\dev\www\green_pigeon\dispatcher.php
+================================================
+
+20/Sep/2018 08:50 - SQLSTATE[42S22]: Column not found: 1054 Unknown column 'dica.1' in 'where clause'
+SELECT SQL_CALC_FOUND_ROWS dica.* FROM dica WHERE ( dica.1 = :15ba3899b98fc1 ) LIMIT 0,20
+C:\Users\leona\dev\www\green_pigeon\lib\core\Db.php
+Linha:79 - C:\Users\leona\dev\www\green_pigeon\lib\core\Db.php
+Linha:455 - C:\Users\leona\dev\www\green_pigeon\lib\core\Record.php
+Linha:175 - C:\Users\leona\dev\www\green_pigeon\controller\DicaController.php
+Linha:105 - C:\Users\leona\dev\www\green_pigeon\lib\core\Run.php
+Linha:27 - C:\Users\leona\dev\www\green_pigeon\dispatcher.php
+================================================
+
+20/Sep/2018 08:51 - SQLSTATE[42S22]: Column not found: 1054 Unknown column 'dica.1' in 'where clause'
+SELECT SQL_CALC_FOUND_ROWS dica.* FROM dica WHERE ( dica.1 = :15ba389c3f06c5 ) LIMIT 0,20
+C:\Users\leona\dev\www\green_pigeon\lib\core\Db.php
+Linha:79 - C:\Users\leona\dev\www\green_pigeon\lib\core\Db.php
+Linha:455 - C:\Users\leona\dev\www\green_pigeon\lib\core\Record.php
+Linha:175 - C:\Users\leona\dev\www\green_pigeon\controller\DicaController.php
+Linha:105 - C:\Users\leona\dev\www\green_pigeon\lib\core\Run.php
+Linha:27 - C:\Users\leona\dev\www\green_pigeon\dispatcher.php
+================================================
+
+20/Sep/2018 08:51 - SQLSTATE[42S22]: Column not found: 1054 Unknown column 'dica.1' in 'where clause'
+SELECT SQL_CALC_FOUND_ROWS dica.* FROM dica WHERE ( dica.1 = :15ba389d01bdd3 ) LIMIT 0,20
+C:\Users\leona\dev\www\green_pigeon\lib\core\Db.php
+Linha:79 - C:\Users\leona\dev\www\green_pigeon\lib\core\Db.php
+Linha:455 - C:\Users\leona\dev\www\green_pigeon\lib\core\Record.php
+Linha:175 - C:\Users\leona\dev\www\green_pigeon\controller\DicaController.php
+Linha:105 - C:\Users\leona\dev\www\green_pigeon\lib\core\Run.php
+Linha:27 - C:\Users\leona\dev\www\green_pigeon\dispatcher.php
+================================================
+
+20/Sep/2018 08:52 - SQLSTATE[42S22]: Column not found: 1054 Unknown column 'dica.1' in 'where clause'
+SELECT SQL_CALC_FOUND_ROWS dica.* FROM dica WHERE ( dica.1 = :15ba389e9828e7 ) LIMIT 0,20
+C:\Users\leona\dev\www\green_pigeon\lib\core\Db.php
+Linha:79 - C:\Users\leona\dev\www\green_pigeon\lib\core\Db.php
+Linha:455 - C:\Users\leona\dev\www\green_pigeon\lib\core\Record.php
+Linha:175 - C:\Users\leona\dev\www\green_pigeon\controller\DicaController.php
+Linha:105 - C:\Users\leona\dev\www\green_pigeon\lib\core\Run.php
+Linha:27 - C:\Users\leona\dev\www\green_pigeon\dispatcher.php
+================================================
+
+20/Sep/2018 08:52 - SQLSTATE[42S22]: Column not found: 1054 Unknown column 'dica.1' in 'where clause'
+SELECT SQL_CALC_FOUND_ROWS dica.* FROM dica WHERE ( dica.1 = :15ba389f348764 ) LIMIT 0,20
+C:\Users\leona\dev\www\green_pigeon\lib\core\Db.php
+Linha:79 - C:\Users\leona\dev\www\green_pigeon\lib\core\Db.php
+Linha:455 - C:\Users\leona\dev\www\green_pigeon\lib\core\Record.php
+Linha:175 - C:\Users\leona\dev\www\green_pigeon\controller\DicaController.php
+Linha:105 - C:\Users\leona\dev\www\green_pigeon\lib\core\Run.php
+Linha:27 - C:\Users\leona\dev\www\green_pigeon\dispatcher.php
+================================================
+
+20/Sep/2018 08:54 - SQLSTATE[42S22]: Column not found: 1054 Unknown column 'dica.1' in 'where clause'
+SELECT SQL_CALC_FOUND_ROWS dica.* FROM dica WHERE ( dica.1 = :15ba38a7408b3e ) LIMIT 0,20
+C:\Users\leona\dev\www\green_pigeon\lib\core\Db.php
+Linha:79 - C:\Users\leona\dev\www\green_pigeon\lib\core\Db.php
+Linha:455 - C:\Users\leona\dev\www\green_pigeon\lib\core\Record.php
+Linha:172 - C:\Users\leona\dev\www\green_pigeon\controller\DicaController.php
+Linha:105 - C:\Users\leona\dev\www\green_pigeon\lib\core\Run.php
+Linha:27 - C:\Users\leona\dev\www\green_pigeon\dispatcher.php
+================================================
+
+20/Sep/2018 08:55 - SQLSTATE[42S22]: Column not found: 1054 Unknown column 'dica.1' in 'where clause'
+SELECT SQL_CALC_FOUND_ROWS dica.* FROM dica WHERE ( dica.1 = :15ba38aca893e3 ) LIMIT 0,20
+C:\Users\leona\dev\www\green_pigeon\lib\core\Db.php
+Linha:79 - C:\Users\leona\dev\www\green_pigeon\lib\core\Db.php
+Linha:455 - C:\Users\leona\dev\www\green_pigeon\lib\core\Record.php
+Linha:171 - C:\Users\leona\dev\www\green_pigeon\controller\DicaController.php
+Linha:105 - C:\Users\leona\dev\www\green_pigeon\lib\core\Run.php
+Linha:27 - C:\Users\leona\dev\www\green_pigeon\dispatcher.php
+================================================
+
+20/Sep/2018 08:56 - SQLSTATE[42S22]: Column not found: 1054 Unknown column 'dica.1' in 'where clause'
+SELECT SQL_CALC_FOUND_ROWS dica.* FROM dica WHERE ( dica.1 = :15ba38af999e7b ) LIMIT 0,20
+C:\Users\leona\dev\www\green_pigeon\lib\core\Db.php
+Linha:79 - C:\Users\leona\dev\www\green_pigeon\lib\core\Db.php
+Linha:455 - C:\Users\leona\dev\www\green_pigeon\lib\core\Record.php
+Linha:171 - C:\Users\leona\dev\www\green_pigeon\controller\DicaController.php
+Linha:105 - C:\Users\leona\dev\www\green_pigeon\lib\core\Run.php
+Linha:27 - C:\Users\leona\dev\www\green_pigeon\dispatcher.php
+================================================
+
+20/Sep/2018 08:58 - SQLSTATE[42S22]: Column not found: 1054 Unknown column 'dica.1' in 'where clause'
+SELECT SQL_CALC_FOUND_ROWS dica.* FROM dica WHERE ( dica.1 = :15ba38b610043a ) LIMIT 0,20
+C:\Users\leona\dev\www\green_pigeon\lib\core\Db.php
+Linha:79 - C:\Users\leona\dev\www\green_pigeon\lib\core\Db.php
+Linha:455 - C:\Users\leona\dev\www\green_pigeon\lib\core\Record.php
+Linha:171 - C:\Users\leona\dev\www\green_pigeon\controller\DicaController.php
+Linha:105 - C:\Users\leona\dev\www\green_pigeon\lib\core\Run.php
+Linha:27 - C:\Users\leona\dev\www\green_pigeon\dispatcher.php
+================================================
+
+20/Sep/2018 08:59 - SQLSTATE[42S22]: Column not found: 1054 Unknown column 'dica.1' in 'where clause'
+SELECT SQL_CALC_FOUND_ROWS dica.* FROM dica WHERE ( dica.1 = :15ba38b8727d4a ) LIMIT 0,20
+C:\Users\leona\dev\www\green_pigeon\lib\core\Db.php
+Linha:79 - C:\Users\leona\dev\www\green_pigeon\lib\core\Db.php
+Linha:455 - C:\Users\leona\dev\www\green_pigeon\lib\core\Record.php
+Linha:168 - C:\Users\leona\dev\www\green_pigeon\controller\DicaController.php
+Linha:105 - C:\Users\leona\dev\www\green_pigeon\lib\core\Run.php
+Linha:27 - C:\Users\leona\dev\www\green_pigeon\dispatcher.php
+================================================
+
+20/Sep/2018 08:59 - SQLSTATE[42S22]: Column not found: 1054 Unknown column 'dica.1' in 'where clause'
+SELECT SQL_CALC_FOUND_ROWS dica.* FROM dica WHERE ( dica.1 = :15ba38ba953fcd ) LIMIT 0,20
+C:\Users\leona\dev\www\green_pigeon\lib\core\Db.php
+Linha:79 - C:\Users\leona\dev\www\green_pigeon\lib\core\Db.php
+Linha:455 - C:\Users\leona\dev\www\green_pigeon\lib\core\Record.php
+Linha:167 - C:\Users\leona\dev\www\green_pigeon\controller\DicaController.php
+Linha:105 - C:\Users\leona\dev\www\green_pigeon\lib\core\Run.php
+Linha:27 - C:\Users\leona\dev\www\green_pigeon\dispatcher.php
+================================================
+
+20/Sep/2018 08:59 - SQLSTATE[42S22]: Column not found: 1054 Unknown column 'dica.2' in 'where clause'
+SELECT SQL_CALC_FOUND_ROWS dica.* FROM dica WHERE ( dica.2 = :25ba38bac2f745 ) LIMIT 0,20
+C:\Users\leona\dev\www\green_pigeon\lib\core\Db.php
+Linha:79 - C:\Users\leona\dev\www\green_pigeon\lib\core\Db.php
+Linha:455 - C:\Users\leona\dev\www\green_pigeon\lib\core\Record.php
+Linha:167 - C:\Users\leona\dev\www\green_pigeon\controller\DicaController.php
+Linha:105 - C:\Users\leona\dev\www\green_pigeon\lib\core\Run.php
+Linha:27 - C:\Users\leona\dev\www\green_pigeon\dispatcher.php
+================================================
+
+20/Sep/2018 08:59 - SQLSTATE[42S22]: Column not found: 1054 Unknown column 'dica.1' in 'where clause'
+SELECT SQL_CALC_FOUND_ROWS dica.* FROM dica WHERE ( dica.1 = :15ba38badaddca ) LIMIT 0,20
+C:\Users\leona\dev\www\green_pigeon\lib\core\Db.php
+Linha:79 - C:\Users\leona\dev\www\green_pigeon\lib\core\Db.php
+Linha:455 - C:\Users\leona\dev\www\green_pigeon\lib\core\Record.php
+Linha:167 - C:\Users\leona\dev\www\green_pigeon\controller\DicaController.php
+Linha:105 - C:\Users\leona\dev\www\green_pigeon\lib\core\Run.php
+Linha:27 - C:\Users\leona\dev\www\green_pigeon\dispatcher.php
+================================================
+
+20/Sep/2018 10:36 - SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'criador_id' cannot be null
+INSERT INTO evento (id,titulo,texto,criador_id,capa,data_criacao,latitude,longitude) VALUES (:id,:titulo,:texto,:criador_id,:capa,:data_criacao,:latitude,:longitude)
+C:\Users\leona\dev\www\green_pigeon\lib\core\Db.php
+Linha:305 - C:\Users\leona\dev\www\green_pigeon\lib\core\Record.php
+Linha:66 - C:\Users\leona\dev\www\green_pigeon\controller\EventoController.php
+Linha:103 - C:\Users\leona\dev\www\green_pigeon\lib\core\Run.php
+Linha:27 - C:\Users\leona\dev\www\green_pigeon\dispatcher.php
+================================================
+
+21/Sep/2018 09:26 - SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'criador_id' cannot be null
+INSERT INTO dica (id,titulo,texto,criador_id,data_criacao,categoria_id) VALUES (:id,:titulo,:texto,:criador_id,:data_criacao,:categoria_id)
+C:\Users\leona\dev\www\green_pigeon\lib\core\Db.php
+Linha:305 - C:\Users\leona\dev\www\green_pigeon\lib\core\Record.php
+Linha:72 - C:\Users\leona\dev\www\green_pigeon\controller\DicaController.php
+Linha:103 - C:\Users\leona\dev\www\green_pigeon\lib\core\Run.php
+Linha:27 - C:\Users\leona\dev\www\green_pigeon\dispatcher.php
+================================================
+
+22/Sep/2018 23:36 - SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'email' cannot be null
+INSERT INTO usuario (id,email,senha,nome,avatar,adm,pontuacao) VALUES (:id,:email,:senha,:nome,:avatar,:adm,:pontuacao)
+C:\Users\leona\dev\www\green_pigeon\lib\core\Db.php
+Linha:305 - C:\Users\leona\dev\www\green_pigeon\lib\core\Record.php
+Linha:77 - C:\Users\leona\dev\www\green_pigeon\controller\UsuarioController.php
+Linha:103 - C:\Users\leona\dev\www\green_pigeon\lib\core\Run.php
+Linha:27 - C:\Users\leona\dev\www\green_pigeon\dispatcher.php
+================================================
+
+22/Sep/2018 23:36 - SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'email' cannot be null
+INSERT INTO usuario (id,email,senha,nome,avatar,adm,pontuacao) VALUES (:id,:email,:senha,:nome,:avatar,:adm,:pontuacao)
+C:\Users\leona\dev\www\green_pigeon\lib\core\Db.php
+Linha:305 - C:\Users\leona\dev\www\green_pigeon\lib\core\Record.php
+Linha:77 - C:\Users\leona\dev\www\green_pigeon\controller\UsuarioController.php
+Linha:103 - C:\Users\leona\dev\www\green_pigeon\lib\core\Run.php
+Linha:27 - C:\Users\leona\dev\www\green_pigeon\dispatcher.php
+================================================
+
+22/Sep/2018 23:47 - SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'email' cannot be null
+INSERT INTO usuario (id,email,senha,nome,avatar,adm,pontuacao) VALUES (:id,:email,:senha,:nome,:avatar,:adm,:pontuacao)
+C:\Users\leona\dev\www\green_pigeon\lib\core\Db.php
+Linha:305 - C:\Users\leona\dev\www\green_pigeon\lib\core\Record.php
+Linha:77 - C:\Users\leona\dev\www\green_pigeon\controller\UsuarioController.php
+Linha:103 - C:\Users\leona\dev\www\green_pigeon\lib\core\Run.php
+Linha:27 - C:\Users\leona\dev\www\green_pigeon\dispatcher.php
+================================================
+
+22/Sep/2018 23:48 - SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'email' cannot be null
+INSERT INTO usuario (id,email,senha,nome,avatar,adm,pontuacao) VALUES (:id,:email,:senha,:nome,:avatar,:adm,:pontuacao)
+C:\Users\leona\dev\www\green_pigeon\lib\core\Db.php
+Linha:305 - C:\Users\leona\dev\www\green_pigeon\lib\core\Record.php
+Linha:77 - C:\Users\leona\dev\www\green_pigeon\controller\UsuarioController.php
+Linha:103 - C:\Users\leona\dev\www\green_pigeon\lib\core\Run.php
+Linha:27 - C:\Users\leona\dev\www\green_pigeon\dispatcher.php
+================================================
+
+24/Sep/2018 08:48 - SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'criador_id' cannot be null
+INSERT INTO evento (id,titulo,texto,criador_id,capa,data_criacao,latitude,longitude,data_evento) VALUES (:id,:titulo,:texto,:criador_id,:capa,:data_criacao,:latitude,:longitude,:data_evento)
+C:\Users\leona\dev\www\green_pigeon\lib\core\Db.php
+Linha:305 - C:\Users\leona\dev\www\green_pigeon\lib\core\Record.php
+Linha:74 - C:\Users\leona\dev\www\green_pigeon\controller\EventoController.php
+Linha:103 - C:\Users\leona\dev\www\green_pigeon\lib\core\Run.php
+Linha:27 - C:\Users\leona\dev\www\green_pigeon\dispatcher.php
+================================================
+
+24/Sep/2018 08:51 - SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'criador_id' cannot be null
+INSERT INTO evento (id,titulo,texto,criador_id,capa,data_criacao,latitude,longitude,data_evento) VALUES (:id,:titulo,:texto,:criador_id,:capa,:data_criacao,:latitude,:longitude,:data_evento)
+C:\Users\leona\dev\www\green_pigeon\lib\core\Db.php
+Linha:305 - C:\Users\leona\dev\www\green_pigeon\lib\core\Record.php
+Linha:74 - C:\Users\leona\dev\www\green_pigeon\controller\EventoController.php
+Linha:103 - C:\Users\leona\dev\www\green_pigeon\lib\core\Run.php
+Linha:27 - C:\Users\leona\dev\www\green_pigeon\dispatcher.php
+================================================
+
+24/Sep/2018 09:04 - SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'criador_id' cannot be null
+INSERT INTO evento (id,titulo,texto,criador_id,capa,data_criacao,latitude,longitude,data_evento) VALUES (:id,:titulo,:texto,:criador_id,:capa,:data_criacao,:latitude,:longitude,:data_evento)
+C:\Users\leona\dev\www\green_pigeon\lib\core\Db.php
+Linha:305 - C:\Users\leona\dev\www\green_pigeon\lib\core\Record.php
+Linha:117 - C:\Users\leona\dev\www\green_pigeon\controller\EventoController.php
+Linha:103 - C:\Users\leona\dev\www\green_pigeon\lib\core\Run.php
+Linha:27 - C:\Users\leona\dev\www\green_pigeon\dispatcher.php
+================================================
+
+24/Sep/2018 09:07 - SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'criador_id' cannot be null
+INSERT INTO evento (id,titulo,texto,criador_id,capa,data_criacao,latitude,longitude,data_evento) VALUES (:id,:titulo,:texto,:criador_id,:capa,:data_criacao,:latitude,:longitude,:data_evento)
+C:\Users\leona\dev\www\green_pigeon\lib\core\Db.php
+Linha:305 - C:\Users\leona\dev\www\green_pigeon\lib\core\Record.php
+Linha:123 - C:\Users\leona\dev\www\green_pigeon\controller\EventoController.php
+Linha:103 - C:\Users\leona\dev\www\green_pigeon\lib\core\Run.php
+Linha:27 - C:\Users\leona\dev\www\green_pigeon\dispatcher.php
+================================================
+
+26/Sep/2018 08:47 - SQLSTATE[42S22]: Column not found: 1054 Unknown column 'evento.2018' in 'order clause'
+SELECT SQL_CALC_FOUND_ROWS evento.* FROM evento WHERE ( evento.data_evento > :data_evento5bab71c5b6034 ) ORDER BY evento.2018-09-26 LIMIT 0,20
+C:\Users\leona\dev\www\green_pigeon\lib\core\Db.php
+Linha:79 - C:\Users\leona\dev\www\green_pigeon\lib\core\Db.php
+Linha:455 - C:\Users\leona\dev\www\green_pigeon\lib\core\Record.php
+Linha:10 - C:\Users\leona\dev\www\green_pigeon\controller\IndexController.php
+Linha:105 - C:\Users\leona\dev\www\green_pigeon\lib\core\Run.php
+Linha:27 - C:\Users\leona\dev\www\green_pigeon\dispatcher.php
+================================================
+
+11/Oct/2018 16:30 - SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'usuario_id' cannot be null
+INSERT INTO voto (id,usuario_id,ponto_id,valor) VALUES (:id,:usuario_id,:ponto_id,:valor)
+C:\Users\leona\dev\www\green_pigeon\lib\core\Db.php
+Linha:305 - C:\Users\leona\dev\www\green_pigeon\lib\core\Record.php
+Linha:67 - C:\Users\leona\dev\www\green_pigeon\controller\VotoController.php
+Linha:103 - C:\Users\leona\dev\www\green_pigeon\lib\core\Run.php
+Linha:27 - C:\Users\leona\dev\www\green_pigeon\dispatcher.php
+================================================
+
+11/Oct/2018 16:31 - SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'usuario_id' cannot be null
+INSERT INTO voto (id,usuario_id,ponto_id,valor) VALUES (:id,:usuario_id,:ponto_id,:valor)
+C:\Users\leona\dev\www\green_pigeon\lib\core\Db.php
+Linha:305 - C:\Users\leona\dev\www\green_pigeon\lib\core\Record.php
+Linha:67 - C:\Users\leona\dev\www\green_pigeon\controller\VotoController.php
+Linha:103 - C:\Users\leona\dev\www\green_pigeon\lib\core\Run.php
+Linha:27 - C:\Users\leona\dev\www\green_pigeon\dispatcher.php
+================================================
+
+11/Oct/2018 16:32 - SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'ponto_id' cannot be null
+INSERT INTO voto (id,usuario_id,ponto_id,valor) VALUES (:id,:usuario_id,:ponto_id,:valor)
+C:\Users\leona\dev\www\green_pigeon\lib\core\Db.php
+Linha:305 - C:\Users\leona\dev\www\green_pigeon\lib\core\Record.php
+Linha:166 - C:\Users\leona\dev\www\green_pigeon\controller\VotoController.php
+Linha:103 - C:\Users\leona\dev\www\green_pigeon\lib\core\Run.php
+Linha:27 - C:\Users\leona\dev\www\green_pigeon\dispatcher.php
+================================================
+
+11/Oct/2018 16:35 - SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'ponto_id' cannot be null
+INSERT INTO voto (id,usuario_id,ponto_id,valor) VALUES (:id,:usuario_id,:ponto_id,:valor)
+C:\Users\leona\dev\www\green_pigeon\lib\core\Db.php
+Linha:305 - C:\Users\leona\dev\www\green_pigeon\lib\core\Record.php
+Linha:166 - C:\Users\leona\dev\www\green_pigeon\controller\VotoController.php
+Linha:103 - C:\Users\leona\dev\www\green_pigeon\lib\core\Run.php
+Linha:27 - C:\Users\leona\dev\www\green_pigeon\dispatcher.php
+================================================
+
+12/Oct/2018 20:00 - SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''5' ) LIMIT 0,20' at line 1
+SELECT SQL_CALC_FOUND_ROWS voto.* FROM voto WHERE ( voto.usuario_id  :usuario_id5bc1279288264 ) LIMIT 0,20
+C:\Users\leona\dev\www\green_pigeon\lib\core\Db.php
+Linha:79 - C:\Users\leona\dev\www\green_pigeon\lib\core\Db.php
+Linha:455 - C:\Users\leona\dev\www\green_pigeon\lib\core\Record.php
+Linha:53 - C:\Users\leona\dev\www\green_pigeon\controller\VotoController.php
+Linha:105 - C:\Users\leona\dev\www\green_pigeon\lib\core\Run.php
+Linha:27 - C:\Users\leona\dev\www\green_pigeon\dispatcher.php
+================================================
+
+12/Oct/2018 20:00 - SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''5' ) LIMIT 0,20' at line 1
+SELECT SQL_CALC_FOUND_ROWS voto.* FROM voto WHERE ( voto.usuario_id  :usuario_id5bc127a8c588b ) LIMIT 0,20
+C:\Users\leona\dev\www\green_pigeon\lib\core\Db.php
+Linha:79 - C:\Users\leona\dev\www\green_pigeon\lib\core\Db.php
+Linha:455 - C:\Users\leona\dev\www\green_pigeon\lib\core\Record.php
+Linha:53 - C:\Users\leona\dev\www\green_pigeon\controller\VotoController.php
+Linha:105 - C:\Users\leona\dev\www\green_pigeon\lib\core\Run.php
+Linha:27 - C:\Users\leona\dev\www\green_pigeon\dispatcher.php
+================================================
+
+12/Oct/2018 20:01 - SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''5' ) LIMIT 0,20' at line 1
+SELECT SQL_CALC_FOUND_ROWS voto.* FROM voto WHERE ( voto.usuario_id  :usuario_id5bc127b9101c9 ) LIMIT 0,20
+C:\Users\leona\dev\www\green_pigeon\lib\core\Db.php
+Linha:79 - C:\Users\leona\dev\www\green_pigeon\lib\core\Db.php
+Linha:455 - C:\Users\leona\dev\www\green_pigeon\lib\core\Record.php
+Linha:53 - C:\Users\leona\dev\www\green_pigeon\controller\VotoController.php
+Linha:105 - C:\Users\leona\dev\www\green_pigeon\lib\core\Run.php
+Linha:27 - C:\Users\leona\dev\www\green_pigeon\dispatcher.php
+================================================
+
+12/Oct/2018 20:02 - SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'valor' cannot be null
+INSERT INTO voto (id,usuario_id,ponto_id,valor) VALUES (:id,:usuario_id,:ponto_id,:valor)
+C:\Users\leona\dev\www\green_pigeon\lib\core\Db.php
+Linha:305 - C:\Users\leona\dev\www\green_pigeon\lib\core\Record.php
+Linha:170 - C:\Users\leona\dev\www\green_pigeon\controller\VotoController.php
+Linha:103 - C:\Users\leona\dev\www\green_pigeon\lib\core\Run.php
+Linha:27 - C:\Users\leona\dev\www\green_pigeon\dispatcher.php
+================================================
+
+12/Oct/2018 20:08 - SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'valor' cannot be null
+INSERT INTO voto (id,usuario_id,ponto_id,valor) VALUES (:id,:usuario_id,:ponto_id,:valor)
+C:\Users\leona\dev\www\green_pigeon\lib\core\Db.php
+Linha:305 - C:\Users\leona\dev\www\green_pigeon\lib\core\Record.php
+Linha:170 - C:\Users\leona\dev\www\green_pigeon\controller\VotoController.php
+Linha:103 - C:\Users\leona\dev\www\green_pigeon\lib\core\Run.php
+Linha:27 - C:\Users\leona\dev\www\green_pigeon\dispatcher.php
+================================================
+
+16/Oct/2018 20:03 - SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'receber_email' cannot be null
+INSERT INTO feedback (id,texto,email,receber_email) VALUES (:id,:texto,:email,:receber_email)
+C:\Users\leona\dev\www\green_pigeon\lib\core\Db.php
+Linha:305 - C:\Users\leona\dev\www\green_pigeon\lib\core\Record.php
+Linha:61 - C:\Users\leona\dev\www\green_pigeon\controller\FeedbackController.php
+Linha:103 - C:\Users\leona\dev\www\green_pigeon\lib\core\Run.php
+Linha:27 - C:\Users\leona\dev\www\green_pigeon\dispatcher.php
+================================================
+
+16/Oct/2018 20:04 - SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'receber_email' cannot be null
+INSERT INTO feedback (id,texto,email,receber_email) VALUES (:id,:texto,:email,:receber_email)
+C:\Users\leona\dev\www\green_pigeon\lib\core\Db.php
+Linha:305 - C:\Users\leona\dev\www\green_pigeon\lib\core\Record.php
+Linha:61 - C:\Users\leona\dev\www\green_pigeon\controller\FeedbackController.php
+Linha:103 - C:\Users\leona\dev\www\green_pigeon\lib\core\Run.php
+Linha:27 - C:\Users\leona\dev\www\green_pigeon\dispatcher.php
+================================================
+
+16/Oct/2018 20:07 - SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'receber_email' cannot be null
+INSERT INTO feedback (id,texto,email,receber_email) VALUES (:id,:texto,:email,:receber_email)
+C:\Users\leona\dev\www\green_pigeon\lib\core\Db.php
+Linha:305 - C:\Users\leona\dev\www\green_pigeon\lib\core\Record.php
+Linha:67 - C:\Users\leona\dev\www\green_pigeon\controller\FeedbackController.php
+Linha:103 - C:\Users\leona\dev\www\green_pigeon\lib\core\Run.php
+Linha:27 - C:\Users\leona\dev\www\green_pigeon\dispatcher.php
+================================================
+
+16/Oct/2018 20:08 - SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'receber_email' cannot be null
+INSERT INTO feedback (id,texto,email,receber_email) VALUES (:id,:texto,:email,:receber_email)
+C:\Users\leona\dev\www\green_pigeon\lib\core\Db.php
+Linha:305 - C:\Users\leona\dev\www\green_pigeon\lib\core\Record.php
+Linha:64 - C:\Users\leona\dev\www\green_pigeon\controller\FeedbackController.php
+Linha:103 - C:\Users\leona\dev\www\green_pigeon\lib\core\Run.php
+Linha:27 - C:\Users\leona\dev\www\green_pigeon\dispatcher.php
+================================================
+
+16/Oct/2018 20:09 - SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'receber_email' cannot be null
+INSERT INTO feedback (id,texto,email,receber_email) VALUES (:id,:texto,:email,:receber_email)
+C:\Users\leona\dev\www\green_pigeon\lib\core\Db.php
+Linha:305 - C:\Users\leona\dev\www\green_pigeon\lib\core\Record.php
+Linha:64 - C:\Users\leona\dev\www\green_pigeon\controller\FeedbackController.php
+Linha:103 - C:\Users\leona\dev\www\green_pigeon\lib\core\Run.php
+Linha:27 - C:\Users\leona\dev\www\green_pigeon\dispatcher.php
+================================================
+
+16/Oct/2018 19:35 - SQLSTATE[HY000] [1045] Access denied for user 'u537390552_leo'@'localhost' (using password: YES)
+C:\Users\leona\dev\www\green_pigeon\lib\core\MysqlDB.php
+================================================
+
+16/Oct/2018 21:12 - SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'link' cannot be null
+INSERT INTO categoria (id,nome,link) VALUES (:id,:nome,:link)
+C:\Users\leona\dev\www\green_pigeon\lib\core\Db.php
+Linha:305 - C:\Users\leona\dev\www\green_pigeon\lib\core\Record.php
+Linha:70 - C:\Users\leona\dev\www\green_pigeon\controller\CategoriaController.php
+Linha:103 - C:\Users\leona\dev\www\green_pigeon\lib\core\Run.php
+Linha:27 - C:\Users\leona\dev\www\green_pigeon\dispatcher.php
+================================================
+
+19/Oct/2018 19:55 - SQLSTATE[HY000] [1045] Access denied for user 'id7549799_leonardson'@'localhost' (using password: YES)
+C:\Users\leona\dev\www\green_pigeon\lib\core\MysqlDB.php
+================================================
+
