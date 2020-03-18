@@ -1,0 +1,433 @@
+html, body{
+  min-height: 100vh;
+}
+body {
+  font-family: 'Montserrat', 'Arial';
+  background-size: cover;background-repeat: no-repeat;
+                background-attachment: fixed;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: .5%;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: rgb(161, 161, 161);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #3e9642;
+  border-radius: 20px; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #2a682d;
+}
+
+li.active {
+   background-color: #388e3c !important;
+}
+
+.pagination li a{
+   color: white !important;
+}
+
+.select-dropdown{
+    color: white !important;
+}
+
+.dropdown-content li>a, .dropdown-content li>span{
+    color: black;
+}
+
+.Usuario{
+    background: rgba(3, 3, 3, 0.801);
+    padding: 20px;
+    border-radius: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    
+}
+
+.titulo {
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  font-size: 4.2em;
+  text-shadow: 0px 2px 20px rgba(0, 0, 0, 0.5);
+}
+
+#img-anuncio {
+  width: 250px;
+  height: 250px;
+}
+
+#text-anuncio {
+  font-size: 1.5em;
+  text-shadow: 0px 2px 20px rgba(0, 0, 0, 0.884);
+}
+
+#entrar-inicio {
+  background: rgba(3, 3, 3, 0.801);
+  border-radius: 20px;
+  padding-bottom: 20px;
+}
+
+.input-field{
+  color: white;
+}
+
+.icon_style{
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  font-size: 20px;
+  color: white;
+  cursor:pointer; 
+}
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+.janela-dicas{
+  background-color: rgb(78, 99, 96);
+  border-radius: 20px;
+  height: auto;
+}
+
+div.fr-element.fr-view{
+  background-color: rgb(78, 99, 96) !important;
+  color: white !important;
+}
+.fr-checkbox-line{
+  display: none !important;
+}
+div.fr-wrapper{
+  background-color: rgb(78, 99, 96) !important;
+}
+
+.janela-dicas ul{
+  padding-right: 15px;
+  overflow-y: auto;
+}
+.conteudo-dicas{
+    border-left: .7px solid #EAEAEA;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.janela-dicas .cat-itens a{
+  color: white;
+  display:block;
+  width: 100%;
+  padding: 10px;
+}
+
+.janela-dicas .cat-itens{
+  border-bottom: .7px solid rgb(78, 99, 96);
+  border-top: .7px solid rgb(78, 99, 96);
+  transition:.7s border-bottom, .7s border-top, .7s background-color;
+}
+.janela-dicas .cat-itens:hover{
+  border-bottom: .7px solid #EAEAEA;
+  border-top: .7px solid #EAEAEA;
+  background-color: rgba(255, 255, 255, 0.151);
+}
+
+.janela-dicas h4{
+  border-bottom: .7px solid #EAEAEA;
+  padding: 5px;
+}
+
+.janela-dicas .ativo{
+  border-bottom: .7px solid #EAEAEA;
+  border-top: .7px solid #EAEAEA;
+  background-color: rgba(255, 255, 255, 0.151);
+}
+
+.icone-dicas{
+  margin-top: 20px;
+  margin-right: 15px;
+  transform: scale(1);
+  transition: .7s transform;
+}
+.icone-dicas:hover{
+  transform: scale(1.15);
+}
+
+.icone-alert{
+    color: white;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+.alert_box{
+    width: 50%;
+    margin: auto;
+    
+    position: fixed;
+    top: 30;
+    right: 20;
+    z-index: 1000;
+}
+
+#toast-container .toast {
+    cursor: pointer;
+}
+#toast-container .toast::after {
+    font-family: 'Material Icons';
+    content: "close";
+    -webkit-font-feature-settings: 'liga';
+    color: white;
+    font-size: 1rem;
+    font-weight: 300;
+    float: right;
+    padding-left: 3rem;
+}
+
+ /* label color */
+.input-field label {
+  color: white !important;
+}
+/* label focus color */
+.input-field input[type=text]:focus + label {
+  color: white !important;
+}
+/* label underline focus color */
+.input-field input[type=text]:focus {
+  border-bottom: .3px solid white !important;
+}
+/* icon prefix focus color */
+.input-field .prefix.active {
+  color: white !important;
+}
+
+.input-field input[type=text]{
+  border-bottom: .3px solid white !important;
+}
+
+
+.input-field input[type=password]{
+  border-bottom: .3px solid white !important;
+}
+
+.input-field input[type=password]:focus + label {
+  color: white !important;
+}
+/* label underline focus color */
+.input-field input[type=password]:focus {
+  border-bottom: .3px solid white !important;
+}
+
+/*black*/
+ /* label color */
+div.input-field.black-field label {
+  color: black !important;
+}
+/* label focus color */
+div.input-field.black-field input[type=text]:focus + label {
+  color: black !important;
+}
+/* label underline focus color */
+div.input-field.black-field input[type=text]:focus {
+  border-bottom: .3px solid black!important;
+}
+/* icon prefix focus color */
+div.input-field.black-field .prefix.active {
+  color: black !important;
+}
+
+div.input-field.black-field input[type=text]{
+  border-bottom: .3px solid black !important;
+}
+
+
+div.input-field.black-field input[type=password]{
+  border-bottom: .3px solid black !important;
+}
+
+div.input-field.black-field input[type=password]:focus + label {
+  color: black !important;
+}
+/* label underline focus color */
+div.input-field.black-field input[type=password]:focus {
+  border-bottom: .3px solid black !important;
+}
+
+
+/*TEXTAREA*/
+ /* label color */
+div.input-field.black-field label {
+  color: black !important;
+}
+/* label focus color */
+div.input-field.black-field textarea:focus + label {
+  color: black !important;
+}
+/* label underline focus color */
+div.input-field.black-field textarea:focus {
+  border-bottom: .3px solid black!important;
+}
+/* icon prefix focus color */
+div.input-field.black-field .prefix.active {
+  color: black !important;
+}
+
+div.input-field.black-field textarea{
+  border-bottom: .3px solid black !important;
+}
+
+.hr{
+  background-color: white;
+  width: 70%;
+  height: .7px;
+}
+
+.mobile{
+  display:none;
+}
+
+.mapa-pagina{
+  background: rgba(3, 3, 3, 0.801);
+  border-radius: 20px;
+  padding: 20px;
+}
+
+#mapid{
+  height: 60vh;
+  border-radius: 20px;
+}
+
+.icone-mapa{
+    border: .7px solid graytext;
+    border-radius: 20px;
+    width: 27px;
+    height: 27px;
+}
+.form-cadastrar{
+    background: rgba(3, 3, 3, 0.801);
+    border-radius: 20px;
+    padding-bottom: 20px;
+    color: white;
+}
+
+.form-ver{
+    background: rgba(3, 3, 3, 0.801);
+    border-radius: 20px;
+    padding-bottom: 10px;
+    padding-top: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.img-perfil{
+    max-width: 500px;
+    max-height: 500px;
+}
+.img-perfil img{
+    
+    border-radius: 20px;
+}
+
+.form-enviar{
+    margin-bottom: 20px;
+}
+
+/* Mobile */
+
+@media only screen and (max-width: 600px) {
+  /* começo nav */
+  .mobile{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #388e3c;
+    height: 50px;
+    margin: 0;
+    z-index: 10000;
+  }
+  .mobile li{
+    width: 25%;
+    text-align: center;
+  }
+  .mobile a{
+    color: white;
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding-top: 10px;
+  }
+  .mobile i{
+    font-size: 2.2rem;
+  }
+  .mobile .ativo{
+    background-color: rgba(17, 17, 17, 0.151);
+  }
+  /* fim nav */
+
+  #img-anuncio{
+    width: 200px;
+    height: 200px;
+  }
+
+  /* mapas */
+  .titulo{
+    font-size: 40px;
+  }
+  .container{
+    margin: 0;
+    width: 100%;
+  }
+  #entrar-inicio{
+    border-radius: 0;
+  }
+  .mapa-pagina{
+    border-radius: 0;
+    padding: 0;
+  }
+  #mapid{
+    border-radius: 0;
+  }
+  .texto-mapa{
+    padding: 10px;
+  }
+  .fixed-action-btn{
+    bottom: 60px;
+    right: 10px;
+  }
+  
+  /* Dicas */
+  .dicas-sidenav{
+    background-color: rgb(78, 99, 96);
+  }
+  .dicas-sidenav .cat-itens a{
+    color: white !important;
+  }
+  .janela-dicas{
+    border-radius: 0;
+  }
+  
+  .alert_box{
+    width: 100%;
+  }
+
+  #entrar-inicio{
+    margin-bottom: 30px;
+  }
+}
+
