@@ -6,7 +6,7 @@
 * @author Instalador LazyPHP <http://lazyphp.com.br>
 * @version 06/09/2018 21:38
 */
-final class Ponto_coletaController extends AppController{ 
+final class Ponto_ColetaController extends AppController{ 
 
     # página inicial do módulo Ponto_coleta
     function inicio(){
@@ -163,6 +163,6 @@ final class Ponto_coletaController extends AppController{
         if ($this->getParam('ordenaPor')) {
             $c->setOrder($this->getParam('ordenaPor'));
         }
-        $this->set('Ponto_coletas', Ponto_coleta::getList($c));
+        $this->set('Ponto_coletas', Ponto_Coleta::getList($c));
     }
 }
